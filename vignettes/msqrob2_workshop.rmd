@@ -9,7 +9,7 @@ date: "`r BiocStyle::doc_date()`"
 package: "`r BiocStyle::pkg_ver('msqrob2')`"
 vignette: >
     %\VignetteIndexEntry{msqrob2PTM use case}
-    %\VignetteEngine{knit r::rmarkdown}
+    %\VignetteEngine{knitr::rmarkdown}
     %\VignetteEncoding{UTF-8}
 ---
 
