@@ -54,4 +54,4 @@ Suggests:
 URL: https://statomics.github.io/msqrob2PtmWorkshopEuro2026
 BugReports: https://github.com/statOmics/msqrob2PtmWorkshopEuro2026/issues/new/choose
 VignetteBuilder: knitr
-DockerImage: ghcr.io/statOmics/msqrob2PtmWorkshopEuro2026:latest
+DockerImage: ghcr.io/statOmics/msqrob2ptmworkshopeuro2026:latest
