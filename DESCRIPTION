@@ -13,12 +13,11 @@ Authors@R:
            role = c("aut")),
     person(given = "Luca",
            family = "De Corso",
-           role = c("ctb")),
+           role = c("aut")),
     person(given = "Lucas",
            family = "Beerland",
-           role = c("ctb"))
+           role = c("aut"))
            )
-           
 Description: This package contains the workshop material presented 
     during the EuroBioc2026 conference. The workshop demonstrate how 
     to apply an msqrob2 workflow for differential PTM analysis from mass 
@@ -31,9 +30,10 @@ RoxygenNote: 7.1.0
 Depends: 
     Biobase, 
     msqrob2
-Suggests:
+Suggests: 
     BiocFileCache,
     BiocParallel,
+    quarto,
     ggplot2,
     patchwork,
     ggrepel,
@@ -53,5 +53,9 @@ Suggests:
     purrr
 URL: https://statomics.github.io/msqrob2PtmWorkshopEuro2026
 BugReports: https://github.com/statOmics/msqrob2PtmWorkshopEuro2026/issues/new/choose
+BiocType: Workflow
 VignetteBuilder: knitr
+SystemRequirements:
+    pandoc,
+    quarto
 DockerImage: ghcr.io/statOmics/msqrob2ptmworkshopeuro2026:latest
